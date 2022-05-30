@@ -90,6 +90,7 @@ class Game extends React.Component {
 }
 let num = 0;
 function calculateWinner(squares) {
+  
   num += 1;
   const lines = [
     [0, 1, 2],
